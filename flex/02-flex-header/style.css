@@ -1,6 +1,8 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -9,11 +11,18 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 10px auto;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 15px;
+  justify-content: space-around;
+  padding-inline-start: 0px;
+  padding: 0px 5px;
+  
 }
 
 a {
